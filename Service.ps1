@@ -1,2 +1,2 @@
 # Added a comment
-Get-Service
+Get-Service | Where-Object {$_.status -eq "Running"}
